@@ -5,9 +5,10 @@
   }
 
   .header {
-    padding: 50px 140px;
+    padding: 50px 200px;
   }
-/* nav-section */
+
+  /* nav-section */
   nav {
     display: flex;
     justify-content: space-between;
@@ -20,28 +21,134 @@
     margin-right: 15px;
   }
 
-  .nav-title {
+  .nav-bar {
     display: flex;
     align-items: center;
   }
 
-  .section-title {
+  .nav-title {
     color: #131318;
     font-size: 2.25rem;
     font-weight: 800;
   }
-  nav > ul{
+
+  nav>ul {
     display: flex;
   }
-  nav li{
+
+  nav li {
     list-style: none;
     margin-right: 30px;
     font-weight: 400;
   }
-  nav li a{
+
+  nav li a {
     text-decoration: none;
     color: #424247;
   }
-  .primary-color{
+
+  .primary-color {
     color: #FF5400;
+  }
+
+  /* section work */
+
+  .img {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1300px;
+    height: 500px;
+    border-radius: 15px;
+  }
+
+  .text-contant {
+    text-align: center;
+    padding: 50px;
+
+  }
+
+  .section-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+  }
+
+  .section-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  main {
+    padding: 50px 200px;
+  }
+
+  .tours {
+    display: flex;
+    gap: 55px;
+  }
+
+  .tours-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+  }
+
+  .tours-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+
+  .tours-li {
+    margin-top: 16px;
+  }
+
+  .list-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+
+  }
+
+  .tours-btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+  }
+
+  .tours-img {
+    width: 540px;
+    height: 550px;
+  }
+
+
+  
+
+
+  @media screen and (max-width:576px) {
+    .header{
+      padding: 10px;
+    }
+    nav{
+      flex-direction: column;
+    }
+    .img{
+      width: auto;
+    }
+    .text-contant{
+      padding: 0;
+    }
+    main{
+      padding: 0;
+    }
+    .tours{
+      flex-direction: column;
+    }
   }
