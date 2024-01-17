@@ -81,29 +81,31 @@
     font-weight: 400;
   }
 
-  .home-form{
+  .home-form {
     width: 720px;
     margin-top: 40px;
     padding: 25px;
     margin: auto;
     background-color: white;
     background: transparent;
-    background: linear-gradient(to bottom, rgba(172,169,169,0.6)0%, rgba(169, 165, 165, 0.7)100%);
+    background: linear-gradient(to bottom, rgba(172, 169, 169, 0.6)0%, rgba(169, 165, 165, 0.7)100%);
     border-radius: 10px;
     display: flex;
   }
-  .find-now{
+
+  .find-now {
     color: #FFF;
     background-color: orangered;
     padding: 16px 20px;
     font-size: 17px;
     border: none;
     border-radius: 10px;
-    
+
   }
 
   main {
     padding: 50px 200px;
+    margin: auto;
   }
 
   .tours {
@@ -149,43 +151,214 @@
     height: 550px;
   }
 
-/* /destination section */
+  /* /destination section */
 
-.destination{
-  text-align: center;
-}
-.row{
-  display: flex;
-  gap: 24px;
-  margin-top: 24px;
-}
-  
+  .destination {
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+  }
+
+  .why-chose {
+    text-align: center;
+  }
+
+  .middle-card .card {
+    width: 573px;
+    height: 284px;
+  }
+
+  .card-title {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  .middle-card {
+    display: flex;
+  }
+
+  .card-1 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-right: 25px;
+  }
+
+  .card-2 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+  }
+
+  .card-3 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: auto;
+  }
+
+  .Newsletter-section {
+    display: flex;
+    margin-top: 25px;
+  }
+
+  .Newsletter {
+    border: 2px solid #FF5400;
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+  }
+
+  .Newsletter-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  .Newsletter-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .Subscribe-form {
+    width: 393px;
+    height: 52px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 25px;
+
+  }
+
+  .travel-btn {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    position: relative;
+    left: 300px;
+    bottom: 170px;
+  }
+
+  .save-70 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+  }
+
+  .Newsletter-section div {
+    padding: 25px;
+  }
+
+  .input-1 {
+    width: 393px;
+    height: 52px;
+    margin-bottom: 25px;
+  }
+
+  .input-2 {
+    width: 393px;
+    height: 52px;
+    margin-bottom: 25px;
+  }
+
+  .btn-3 {
+    width: 393px;
+    height: 52px;
+  }
+
+  .img-sub {
+    height: 90%;
+    margin-left: 70px;
+  }
+
+  .footer-end {
+    width: 1440px;
+    height: 400px;
+    background: rgba(19, 19, 24, 0.05);
+
+  }
+
+  .footer-bar {
+    justify-content: center;
+  }
+
+  .footer--description {
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+  }
+
+  .icon {
+    text-align: center;
+  }
+
+  .copyright {
+    text-align: center;
+    margin-top: 100px;
+    border-top: 1px solid rgba(19, 19, 24, 0.10);;
+  }
 
 
   @media screen and (max-width:576px) {
-    .header{
+    .header {
       padding: 10px;
     }
-    nav{
+
+    nav {
       flex-direction: column;
     }
-    .img{
+
+    .img {
       width: auto;
     }
-    .text-contant{
+
+    .text-contant {
       padding: 0;
     }
-    main{
+
+    main {
       padding: 0;
     }
-    .tours{
+
+    .tours {
       flex-direction: column;
     }
-    .home-form{
+
+    .home-form {
       flex-direction: column;
       width: auto;
     }
-    .row{
+
+    .row {
       flex-direction: column;
+    }
+
+    .Newsletter-section {
+      flex-direction: column;
+    }
+    .footer-end{
+      width: auto;
+    }
+    .img-sub img,{
+      width: 400px;
+    }
+    .travel-btn{
+      position: relative;
+      right: 300px;
     }
   }
